@@ -1,0 +1,9 @@
+setCommandLineOptions("command-line-options");
+getErrorString();
+class Command
+parameter Types.Wolves y0=10;
+end Command;
+class Options
+parameter ModelicaByExample.PackageExamples.NestedPackages.Types.Wolves y0=10;
+end Options;
+
