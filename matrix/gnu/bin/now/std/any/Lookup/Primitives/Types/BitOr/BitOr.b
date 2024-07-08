@@ -10,16 +10,16 @@ let impl_bit_or = {
 let fn_bitor = [|"self", "other: bool -> <bool as BitOr>::Output"|]
 (*Performs the | operation. Read more*)
 
-let impl_bit_or_headers_tokens_plus = [|"<&bool>"; "for bool"|]
+let impl_bit_or_headers_OK_plus = [|"<&bool>"; "for bool"|]
 type output2 = {
     bit_or: bool;
 }
 (*The resulting type after applying the | operator.*)
-let impl_bit_or_tokens_headers_plus = {
+let impl_bit_or_OK_headers_plus = {
     bit_or = true;
 }
 
-let fn_bitor_header_tokens = [|"self", "other: bool -> <bool as BitOr>::Output"|]
+let fn_bitor_header_OK = [|"self", "other: bool -> <bool as BitOr>::Output"|]
 (*Performs the | operation. Read more*)
 
 let impl = [|"<T, const N: usize>";  "BitOr<Mask<T, N>> for bool"|]
